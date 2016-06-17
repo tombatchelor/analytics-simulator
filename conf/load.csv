@@ -1,0 +1,145 @@
+BT,City,Brand,MemberLevel,Partner,Email,Amount,NONE,NONE,NONE,NONE,UX,ErrorMsg
+1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,ashton@gmail.com,222,222,0,0,0,Normal,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,ella@gmail.com,459,459,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,raul@gmail.com,227,227,0,0,0,Normal,No Error
+1,Chicago,Residence Inn,Member,Expedia,maria@gmail.com,200,200,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Gold Elite,Expedia,mike@gmail.com,314,314,0,0,0,Normal,No Error
+1,New York,Fairfield Inn & Suites,Silver Elite,Orbitz,chen@gmail.com,225,225,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Orbitz,madison@gmail.com,326,326,0,0,0,Normal,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,jesus@gmail.com,451,451,0,0,0,Very Slow,No Error
+1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,dimimitri@gmail.com,227,227,0,0,0,Normal,No Error
+1,Chicago,Residence Inn,Member,Expedia,noah@gmail.com,211,211,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Member,Expedia,mili@gmail.com,213,213,0,0,0,Normal,No Error
+1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,ella@gmail.com,229,229,0,0,0,Normal,No Error
+1,New York,Fairfield Inn & Suites,Silver Elite,Orbitz,isabelle@gmail.com,230,230,0,0,0,Normal,No Error
+1,Chicago,Residence Inn,Member,Orbitz,marcus@gmail.com,203,203,0,0,0,Normal,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,augustus@gmail.com,320,320,0,0,0,Normal,No Error
+1,Washington,JW Marriott,Gold Elite,Orbitz,pierre@gmail.com,332,332,0,0,0,Very Slow,No Error
+1,Chicago,Residence Inn,Member,Expedia,romeo@gmail.com,212,212,0,0,0,Very Slow,No Error
+1,Chicago,Residence Inn,Member,Expedia,sarah@gmail.com,206,206,0,0,0,Normal,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,ryan@gmail.com,321,321,0,0,0,Normal,No Error
+1,Washington,JW Marriott,Gold Elite,Orbitz,vinh@gmail.com,327,327,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,jose@gmail.com,441,441,0,0,0,Normal,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,ashton@gmail.com,440,440,0,0,0,Normal,No Error
+1,New York,Fairfield Inn & Suites,Silver Elite,Orbitz,augustus@gmail.com,226,226,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Member,Expedia,vinh@gmail.com,208,208,0,0,0,Normal,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,chen@gmail.com,448,448,0,0,0,Normal,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,isabelle@gmail.com,445,445,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,romeo@gmail.com,248,248,0,0,0,Normal,No Error
+1,Chicago,Residence Inn,Member,Orbitz,ashton@gmail.com,207,207,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Gold Elite,Expedia,chen@gmail.com,319,319,0,0,0,Normal,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,mike@gmail.com,312,312,0,0,0,Normal,No Error
+1,New York,Fairfield Inn & Suites,Silver Elite,Orbitz,mili@gmail.com,237,237,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,sarah@gmail.com,220,220,0,0,0,Very Slow,No Error
+1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,mike@gmail.com,231,231,0,0,0,Slow,No Error
+1,Chicago,Residence Inn,Member,Expedia,madison@gmail.com,202,202,0,0,0,Slow,No Error
+1,Chicago,Residence Inn,Member,Orbitz,jesus@gmail.com,208,208,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Member,Expedia,jose@gmail.com,208,208,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,vinh@gmail.com,326,326,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,madison@gmail.com,329,329,0,0,0,Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Orbitz,jesus@gmail.com,333,333,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,jose@gmail.com,443,443,0,0,0,Very Slow,No Error
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,isabelle@gmail.com,240,240,0,0,0,Slow,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,ashton@gmail.com,456,456,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,raul@gmail.com,442,442,0,0,0,Very Slow,No Error
+1,Chicago,Residence Inn,Platinum Elite,Expedia,maria@gmail.com,195,195,0,0,0,Very Slow,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,chen@gmail.com,455,455,0,0,0,Very Slow,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,dimimitri@gmail.com,459,459,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,ella@gmail.com,248,248,0,0,0,Slow,No Error
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Platinum Elite,Expedia,mili@gmail.com,202,202,0,0,0,Very Slow,No Error
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,213,213,0,0,0,Very Slow,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,ashton@gmail.com,446,446,0,0,0,Very Slow,No Error
+1,Chicago,Residence Inn,Platinum Elite,Expedia,marcus@gmail.com,204,204,0,0,0,Normal,No Error
+1,Chicago,Residence Inn,Platinum Elite,Orbitz,mike@gmail.com,204,204,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Platinum Elite,Expedia,augustus@gmail.com,322,322,0,0,0,Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,327,327,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,jose@gmail.com,449,449,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,ryan@gmail.com,329,329,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,vinh@gmail.com,330,330,0,0,0,Very Slow,No Error
+1,San Francisco,The Ritz Carlton,Gold Elite,Expedia,madison@gmail.com,459,459,0,0,0,Very Slow,No Error
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,romeo@gmail.com,225,225,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,jesus@gmail.com,454,454,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,447,447,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,ashton@gmail.com,453,453,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,raul@gmail.com,460,460,0,0,0,Very Slow,No Error
+1,Chicago,Residence Inn,Platinum Elite,Expedia,maria@gmail.com,205,205,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,chen@gmail.com,460,460,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,dimimitri@gmail.com,456,456,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,ella@gmail.com,248,248,0,0,0,Very Slow,No Error
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Platinum Elite,Expedia,mili@gmail.com,208,208,0,0,0,Very Slow,No Error
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,198,198,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,ashton@gmail.com,447,447,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Member,Expedia,marcus@gmail.com,205,205,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Silver Elite,Orbitz,mike@gmail.com,214,214,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Platinum Elite,Expedia,augustus@gmail.com,325,325,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,311,311,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,jose@gmail.com,460,460,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,ryan@gmail.com,321,321,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Gold Elite,Expedia,vinh@gmail.com,317,317,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Gold Elite,Expedia,madison@gmail.com,453,453,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,romeo@gmail.com,239,239,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,jesus@gmail.com,453,453,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,453,453,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,214,214,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,330,330,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,445,445,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,201,201,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,319,319,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,450,450,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,213,213,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,318,318,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,460,460,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,201,201,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,316,316,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,445,445,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,214,214,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,316,316,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,445,445,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Member,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Silver Elite,Expedia,sarah@gmail.com,214,214,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,331,331,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,441,441,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Member,Expedia,sarah@gmail.com,201,201,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Silver Elite,Expedia,pierre@gmail.com,310,310,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,443,443,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,213,213,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,311,311,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,452,452,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,198,198,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,335,335,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,452,452,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Member,Expedia,sarah@gmail.com,202,202,0,0,0,Error,Unable to confirm reservation
+1,Washington,JW Marriott,Silver Elite,Expedia,pierre@gmail.com,329,329,0,0,0,Error,Unable to confirm reservation
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,457,457,0,0,0,Error,Unable to confirm reservation
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,198,198,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,316,316,0,0,0,Very Slow,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,451,451,0,0,0,Very Slow,No Error
+1,Chicago,Residence Inn,Member,Expedia,sarah@gmail.com,211,211,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Silver Elite,Expedia,pierre@gmail.com,317,317,0,0,0,Very Slow,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,445,445,0,0,0,Very Slow,No Error
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Very Slow,No Error
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,205,205,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,321,321,0,0,0,Very Slow,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,458,458,0,0,0,Very Slow,No Error
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,212,212,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,321,321,0,0,0,Very Slow,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,455,455,0,0,0,Very Slow,No Error
+1,Chicago,Residence Inn,Member,Expedia,sarah@gmail.com,206,206,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Silver Elite,Expedia,pierre@gmail.com,329,329,0,0,0,Very Slow,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,458,458,0,0,0,Very Slow,No Error
+1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Very Slow,No Error
+1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,198,198,0,0,0,Very Slow,No Error
+1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,331,331,0,0,0,Very Slow,No Error
+1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,459,459,0,0,0,Very Slow,No Error
