@@ -5,6 +5,8 @@ import java.net.*;
 import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.UUID;
+import java.util.HashMap;
 
 /**
  * Created by Matt Cleve - AppDynamics Sr. Sales Engineer on 7/30/15.
@@ -26,10 +28,10 @@ public class AnalyticsSimulator
     }
 
     // Business Transaction 1
-    public void bt1(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg)
+    public void bt1(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg, String uuid)
     {
         // Log business transaction data
-        log.log(Level.INFO, "Business Transaction 1 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | userExperience: " + userExperience);
+        log.log(Level.INFO, "Business Transaction 1 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | uuid: " + uuid + " | userExperience: " + userExperience);
 
         // Simulate user experience - Normal, Very Slow
         if(userExperience.equals("Normal")) {
@@ -52,24 +54,19 @@ public class AnalyticsSimulator
     }
 
     // Business Transaction 2
-    public void bt2(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg)
+    public void bt2(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg, String uuid)
     {
         // Log business transaction data
-        log.log(Level.INFO, "Business Transaction 1 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | userExperience: " + userExperience);
+        log.log(Level.INFO, "Business Transaction 2 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | uuid: " + uuid + " | userExperience: " + userExperience);
 
         // Simulate user experience - Normal, Very Slow
-        try
-        {
-            if(userExperience.equals("Normal"))
-                this.sleep(800, 1500);
-            else if(userExperience.equals("Very Slow"))
-                this.sleep(12000, 15000);
-            else
-                this.sleep(800, 1500);
-        }
-        catch(InterruptedException ex)
-        {
-            Thread.currentThread().interrupt();
+        if(userExperience.equals("Normal")) {
+            this.sleep(100, 500);
+        } else if(userExperience.equals("Very Slow")) {
+            this.sleep(4500, 5000);
+        } else {
+            // This is an Error status
+            this.sleep(9000, 15000);
         }
 
         // Simulate user experience - Error
@@ -87,24 +84,19 @@ public class AnalyticsSimulator
     }
 
     // Business Transaction 3
-    public void bt3(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg)
+    public void bt3(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg, String uuid)
     {
         // Log business transaction data
-        log.log(Level.INFO, "Business Transaction 1 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | userExperience: " + userExperience);
+        log.log(Level.INFO, "Business Transaction 3 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | uuid: " + uuid + " | userExperience: " + userExperience);
 
         // Simulate user experience - Normal, Very Slow
-        try
-        {
-            if(userExperience.equals("Normal"))
-                this.sleep(800, 1500);
-            else if(userExperience.equals("Very Slow"))
-                this.sleep(12000, 15000);
-            else
-                this.sleep(800, 1500);
-        }
-        catch(InterruptedException ex)
-        {
-            Thread.currentThread().interrupt();
+        if(userExperience.equals("Normal")) {
+            this.sleep(100, 500);
+        } else if(userExperience.equals("Very Slow")) {
+            this.sleep(4500, 5000);
+        } else {
+            // This is an Error status
+            this.sleep(9000, 15000);
         }
 
         // Simulate user experience - Error
@@ -122,24 +114,19 @@ public class AnalyticsSimulator
     }
 
     // Business Transaction 4
-    public void bt4(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg)
+    public void bt4(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg, String uuid)
     {
         // Log business transaction data
-        log.log(Level.INFO, "Business Transaction 1 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | userExperience: " + userExperience);
+        log.log(Level.INFO, "Business Transaction 4 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | uuid: " + uuid + " | userExperience: " + userExperience);
 
         // Simulate user experience - Normal, Very Slow
-        try
-        {
-            if(userExperience.equals("Normal"))
-                this.sleep(800, 1500);
-            else if(userExperience.equals("Very Slow"))
-                this.sleep(12000, 15000);
-            else
-                this.sleep(800, 1500);
-        }
-        catch(InterruptedException ex)
-        {
-            Thread.currentThread().interrupt();
+        if(userExperience.equals("Normal")) {
+            this.sleep(100, 500);
+        } else if(userExperience.equals("Very Slow")) {
+            this.sleep(4500, 5000);
+        } else {
+            // This is an Error status
+            this.sleep(9000, 15000);
         }
 
         // Simulate user experience - Error
@@ -157,24 +144,19 @@ public class AnalyticsSimulator
     }
 
     // Business Transaction 5
-    public void bt5(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg)
+    public void bt5(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg, String uuid)
     {
         // Log business transaction data
-        log.log(Level.INFO, "Business Transaction 1 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | userExperience: " + userExperience);
+        log.log(Level.INFO, "Business Transaction 5 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | uuid: " + uuid + " | userExperience: " + userExperience);
 
         // Simulate user experience - Normal, Very Slow
-        try
-        {
-            if(userExperience.equals("Normal"))
-                this.sleep(800, 1500);
-            else if(userExperience.equals("Very Slow"))
-                this.sleep(12000, 15000);
-            else
-                this.sleep(800, 1500);
-        }
-        catch(InterruptedException ex)
-        {
-            Thread.currentThread().interrupt();
+        if(userExperience.equals("Normal")) {
+            this.sleep(100, 500);
+        } else if(userExperience.equals("Very Slow")) {
+            this.sleep(4500, 5000);
+        } else {
+            // This is an Error status
+            this.sleep(9000, 15000);
         }
 
         // Simulate user experience - Error
@@ -192,24 +174,19 @@ public class AnalyticsSimulator
     }
 
     // Business Transaction 6
-    public void bt6(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg)
+    public void bt6(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg, String uuid)
     {
         // Log business transaction data
-        log.log(Level.INFO, "Business Transaction 1 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | userExperience: " + userExperience);
+        log.log(Level.INFO, "Business Transaction 6 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | uuid: " + uuid + " | userExperience: " + userExperience);
 
         // Simulate user experience - Normal, Very Slow
-        try
-        {
-            if(userExperience.equals("Normal"))
-                this.sleep(800, 1500);
-            else if(userExperience.equals("Very Slow"))
-                this.sleep(12000, 15000);
-            else
-                this.sleep(800, 1500);
-        }
-        catch(InterruptedException ex)
-        {
-            Thread.currentThread().interrupt();
+        if(userExperience.equals("Normal")) {
+            this.sleep(100, 500);
+        } else if(userExperience.equals("Very Slow")) {
+            this.sleep(4500, 5000);
+        } else {
+            // This is an Error status
+            this.sleep(9000, 15000);
         }
 
         // Simulate user experience - Error
@@ -227,24 +204,19 @@ public class AnalyticsSimulator
     }
 
     // Business Transaction 7
-    public void bt7(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg)
+    public void bt7(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg, String uuid)
     {
         // Log business transaction data
-        log.log(Level.INFO, "Business Transaction 1 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | userExperience: " + userExperience);
+        log.log(Level.INFO, "Business Transaction 7 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | uuid: " + uuid + " | userExperience: " + userExperience);
 
         // Simulate user experience - Normal, Very Slow
-        try
-        {
-            if(userExperience.equals("Normal"))
-                this.sleep(800, 1500);
-            else if(userExperience.equals("Very Slow"))
-                this.sleep(12000, 15000);
-            else
-                this.sleep(800, 1500);
-        }
-        catch(InterruptedException ex)
-        {
-            Thread.currentThread().interrupt();
+        if(userExperience.equals("Normal")) {
+            this.sleep(100, 500);
+        } else if(userExperience.equals("Very Slow")) {
+            this.sleep(4500, 5000);
+        } else {
+            // This is an Error status
+            this.sleep(9000, 15000);
         }
 
         // Simulate user experience - Error
@@ -262,24 +234,19 @@ public class AnalyticsSimulator
     }
 
     // Business Transaction 8
-    public void bt8(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg)
+    public void bt8(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg, String uuid)
     {
         // Log business transaction data
-        log.log(Level.INFO, "Business Transaction 1 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | userExperience: " + userExperience);
+        log.log(Level.INFO, "Business Transaction 8 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | uuid: " + uuid + " | userExperience: " + userExperience);
 
         // Simulate user experience - Normal, Very Slow
-        try
-        {
-            if(userExperience.equals("Normal"))
-                this.sleep(800, 1500);
-            else if(userExperience.equals("Very Slow"))
-                this.sleep(12000, 15000);
-            else
-                this.sleep(800, 1500);
-        }
-        catch(InterruptedException ex)
-        {
-            Thread.currentThread().interrupt();
+        if(userExperience.equals("Normal")) {
+            this.sleep(100, 500);
+        } else if(userExperience.equals("Very Slow")) {
+            this.sleep(4500, 5000);
+        } else {
+            // This is an Error status
+            this.sleep(9000, 15000);
         }
 
         // Simulate user experience - Error
@@ -297,24 +264,19 @@ public class AnalyticsSimulator
     }
 
     // Business Transaction 9
-    public void bt9(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg)
+    public void bt9(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg, String uuid)
     {
         // Log business transaction data
-        log.log(Level.INFO, "Business Transaction 1 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | userExperience: " + userExperience);
+        log.log(Level.INFO, "Business Transaction 9 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | uuid: " + uuid + " | userExperience: " + userExperience);
 
         // Simulate user experience - Normal, Very Slow
-        try
-        {
-            if(userExperience.equals("Normal"))
-                this.sleep(800, 1500);
-            else if(userExperience.equals("Very Slow"))
-                this.sleep(12000, 15000);
-            else
-                this.sleep(800, 1500);
-        }
-        catch(InterruptedException ex)
-        {
-            Thread.currentThread().interrupt();
+        if(userExperience.equals("Normal")) {
+            this.sleep(100, 500);
+        } else if(userExperience.equals("Very Slow")) {
+            this.sleep(4500, 5000);
+        } else {
+            // This is an Error status
+            this.sleep(9000, 15000);
         }
 
         // Simulate user experience - Error
@@ -332,24 +294,19 @@ public class AnalyticsSimulator
     }
 
     // Business Transaction 10
-    public void bt10(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg)
+    public void bt10(String s1, String s2, String s3, String s4, String s5, Integer i1, Integer i2, Integer i3, Integer i4, Integer i5, String userExperience, String errorMsg, String uuid)
     {
         // Log business transaction data
-        log.log(Level.INFO, "Business Transaction 1 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | userExperience: " + userExperience);
+        log.log(Level.INFO, "Business Transaction 10 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | uuid: " + uuid + " | userExperience: " + userExperience);
 
         // Simulate user experience - Normal, Very Slow
-        try
-        {
-            if(userExperience.equals("Normal"))
-                this.sleep(800, 1500);
-            else if(userExperience.equals("Very Slow"))
-                this.sleep(12000, 15000);
-            else
-                this.sleep(800, 1500);
-        }
-        catch(InterruptedException ex)
-        {
-            Thread.currentThread().interrupt();
+        if(userExperience.equals("Normal")) {
+            this.sleep(100, 500);
+        } else if(userExperience.equals("Very Slow")) {
+            this.sleep(4500, 5000);
+        } else {
+            // This is an Error status
+            this.sleep(9000, 15000);
         }
 
         // Simulate user experience - Error
@@ -390,6 +347,7 @@ public class AnalyticsSimulator
         boolean running = true;
         while (running)
         {
+            HashMap<String, String> ids = new HashMap<String, String>();
             try
             {
                 AnalyticsSimulator aS = new AnalyticsSimulator();
@@ -425,26 +383,36 @@ public class AnalyticsSimulator
                         String uX = values[11]; // User experience
                         String eR = values[12]; // Error message
 
+                        String uuid = UUID.randomUUID().toString();
+                        if(values.length >= 14) {
+                          String identifier = values[13];
+                          if(ids.containsKey(identifier)) {
+                            uuid = ids.get(identifier);
+                          } else {
+                            ids.put(identifier, uuid);
+                          }
+                        }
+
                         if (bt.equals("1"))
-                            aS.bt1(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR);
+                            aS.bt1(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR, uuid);
                         else if (bt.equals("2"))
-                            aS.bt2(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR);
+                            aS.bt2(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR, uuid);
                         else if (bt.equals("3"))
-                            aS.bt3(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR);
+                            aS.bt3(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR, uuid);
                         else if (bt.equals("4"))
-                            aS.bt4(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR);
+                            aS.bt4(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR, uuid);
                         else if (bt.equals("5"))
-                            aS.bt5(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR);
+                            aS.bt5(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR, uuid);
                         else if (bt.equals("6"))
-                            aS.bt6(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR);
+                            aS.bt6(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR, uuid);
                         else if (bt.equals("7"))
-                            aS.bt7(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR);
+                            aS.bt7(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR, uuid);
                         else if (bt.equals("8"))
-                            aS.bt8(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR);
+                            aS.bt8(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR, uuid);
                         else if (bt.equals("9"))
-                            aS.bt9(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR);
+                            aS.bt9(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR, uuid);
                         else if (bt.equals("10"))
-                            aS.bt10(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR);
+                            aS.bt10(s1, s2, s3, s4, s5, i1, i2, i3, i4, i5, uX, eR, uuid);
                     }
                 }
 
