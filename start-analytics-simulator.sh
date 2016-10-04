@@ -129,6 +129,7 @@ start() {
 
     log-debug "AGENT_OPTIONS $AGENT_OPTIONS"
 
+    # Don't wrap AGENT_OPTIONS in quotes or it'll blow up.
     java -classpath "$JAVA_OUT_DIR":"$CONF_DIR" $AGENT_OPTIONS "$JAVA_MAIN_CLASS"
 }
 
