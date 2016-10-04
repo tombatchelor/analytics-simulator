@@ -33,24 +33,7 @@ public class AnalyticsSimulator
         // Log business transaction data
         log.log(Level.INFO, "Business Transaction 1 - s1: " + s1 + " | s2: " + s2 + " | s3: " + s3 + " | s4: " + s4 + " | s5: " + s5 + " | i1: " + i1 + " | i2: " + i2 + " | i3: " + i3 + " | i4: " + i4 + " | i5: " + i5 + " | uuid: " + uuid + " | userExperience: " + userExperience);
 
-        // Simulate user experience - Normal, Very Slow
-        if(userExperience.equals("Normal")) {
-            this.sleep(100, 500);
-        } else if(userExperience.equals("Very Slow")) {
-            this.sleep(4500, 5000);
-        } else {
-            // This is an Error status
-            this.sleep(9000, 15000);
-        }
-
-        // Simulate user experience - Error
-        if(userExperience.equals("Error")) {
-            try {
-                throw new SocketException(errorMsg);
-            } catch (Exception ex) {
-                log.log(Level.SEVERE, ex.toString(), ex);
-            }
-        }
+        handleUserExperience(userExperience, errorMsg);
     }
 
     // Business Transaction 2
@@ -323,6 +306,29 @@ public class AnalyticsSimulator
         }
     }
 
+    private void handleUserExperience(String userExperience, String errorMsg) {
+        // Simulate user experience - Normal, Slow, Very Slow, Error
+        if(userExperience.equals("Normal")) {
+            this.sleep(100, 500);
+        } else if(userExperience.equals("Slow")) {
+            this.sleep(1500, 4000);
+        } else if(userExperience.equals("Very Slow")) {
+            this.sleep(4500, 5000);
+        } else {
+            // This is an Error status
+            this.sleep(9000, 15000);
+        }
+
+        // Simulate user experience - Error
+        if(userExperience.equals("Error")) {
+            try {
+                throw new SocketException(errorMsg);
+            } catch (Exception ex) {
+                log.log(Level.SEVERE, ex.toString(), ex);
+            }
+        }
+    }
+
     /**
      * Sleep the thread for a random amount between low and high.
      *
@@ -339,6 +345,29 @@ public class AnalyticsSimulator
             Thread.sleep(sleep);
         } catch(InterruptedException ex) {
             Thread.currentThread().interrupt();
+        }
+    }
+
+    private String getString(String[] array, int index) {
+        try {
+            return array[index];
+        } catch (Exception ex) {
+            log.log(Level.SEVERE, "Unable to get String with index: "+index+" from array");
+            ex.printStackTrace();
+            return "";
+        }
+    }
+
+    private Integer getInteger(String[] array, int index) {
+        try {
+            String stringValue = getString(array, index);
+            stringValue = stringValue.replace(" ", "");
+
+            return Integer.valueOf(stringValue);
+        } catch (Exception ex) {
+            log.log(Level.SEVERE, "Unable to get Integer with index: "+index+" from array");
+            ex.printStackTrace();
+            return 0;
         }
     }
 
@@ -361,7 +390,8 @@ public class AnalyticsSimulator
                     String[] values = line.split(DATA_COLUMN_SEPERATOR);
                     counter++;
 
-                    log.log(Level.INFO, "Processing line "+counter+", length: "+values.length+", 0:"+values[0]+", 1:"+values[1]);
+                    log.log(Level.INFO, "Processing line "+counter+", length: "+values.length);
+                    log.log(Level.INFO, "0:"+values[0]+", 1:"+values[1]);
 
                     if (values[0].equals("BT")) {
                         // Skip the header line
@@ -369,23 +399,23 @@ public class AnalyticsSimulator
                         continue;
 
                     } else if(!values[0].equals("")) {
-                        String bt = values[0];
-                        String s1 = values[1];
-                        String s2 = values[2];
-                        String s3 = values[3];
-                        String s4 = values[4];
-                        String s5 = values[5];
-                        Integer i1 = Integer.valueOf(values[6].replace(" ", ""));
-                        Integer i2 = Integer.valueOf(values[7].replace(" ", ""));
-                        Integer i3 = Integer.valueOf(values[8].replace(" ", ""));
-                        Integer i4 = Integer.valueOf(values[9].replace(" ", ""));
-                        Integer i5 = Integer.valueOf(values[10].replace(" ", ""));
-                        String uX = values[11]; // User experience
-                        String eR = values[12]; // Error message
+                        String bt = aS.getString(values, 0);
+                        String s1 = aS.getString(values, 1);
+                        String s2 = aS.getString(values, 2);
+                        String s3 = aS.getString(values, 3);
+                        String s4 = aS.getString(values, 4);
+                        String s5 = aS.getString(values, 5);
+                        Integer i1 = aS.getInteger(values, 6);
+                        Integer i2 = aS.getInteger(values, 7);
+                        Integer i3 = aS.getInteger(values, 8);
+                        Integer i4 = aS.getInteger(values, 9);
+                        Integer i5 = aS.getInteger(values, 10);
+                        String uX = aS.getString(values, 11); // User experience
+                        String eR = aS.getString(values, 12); // Error message
 
                         String uuid = UUID.randomUUID().toString();
                         if(values.length >= 14) {
-                          String identifier = values[13];
+                          String identifier = aS.getString(values, 13);
                           if(ids.containsKey(identifier)) {
                             uuid = ids.get(identifier);
                           } else {
