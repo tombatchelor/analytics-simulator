@@ -1,145 +1,347 @@
-BT,City,Brand,MemberLevel,Partner,Email,Amount,NONE,NONE,NONE,NONE,UX,ErrorMsg
-1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,ashton@gmail.com,222,222,0,0,0,Normal,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,ella@gmail.com,459,459,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,raul@gmail.com,227,227,0,0,0,Normal,No Error
-1,Chicago,Residence Inn,Member,Expedia,maria@gmail.com,200,200,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Gold Elite,Expedia,mike@gmail.com,314,314,0,0,0,Normal,No Error
-1,New York,Fairfield Inn & Suites,Silver Elite,Orbitz,chen@gmail.com,225,225,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Orbitz,madison@gmail.com,326,326,0,0,0,Normal,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,jesus@gmail.com,451,451,0,0,0,Very Slow,No Error
-1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,dimimitri@gmail.com,227,227,0,0,0,Normal,No Error
-1,Chicago,Residence Inn,Member,Expedia,noah@gmail.com,211,211,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Member,Expedia,mili@gmail.com,213,213,0,0,0,Normal,No Error
-1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,ella@gmail.com,229,229,0,0,0,Normal,No Error
-1,New York,Fairfield Inn & Suites,Silver Elite,Orbitz,isabelle@gmail.com,230,230,0,0,0,Normal,No Error
-1,Chicago,Residence Inn,Member,Orbitz,marcus@gmail.com,203,203,0,0,0,Normal,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,augustus@gmail.com,320,320,0,0,0,Normal,No Error
-1,Washington,JW Marriott,Gold Elite,Orbitz,pierre@gmail.com,332,332,0,0,0,Very Slow,No Error
-1,Chicago,Residence Inn,Member,Expedia,romeo@gmail.com,212,212,0,0,0,Very Slow,No Error
-1,Chicago,Residence Inn,Member,Expedia,sarah@gmail.com,206,206,0,0,0,Normal,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,ryan@gmail.com,321,321,0,0,0,Normal,No Error
-1,Washington,JW Marriott,Gold Elite,Orbitz,vinh@gmail.com,327,327,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,jose@gmail.com,441,441,0,0,0,Normal,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,ashton@gmail.com,440,440,0,0,0,Normal,No Error
-1,New York,Fairfield Inn & Suites,Silver Elite,Orbitz,augustus@gmail.com,226,226,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Member,Expedia,vinh@gmail.com,208,208,0,0,0,Normal,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,chen@gmail.com,448,448,0,0,0,Normal,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,isabelle@gmail.com,445,445,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,romeo@gmail.com,248,248,0,0,0,Normal,No Error
-1,Chicago,Residence Inn,Member,Orbitz,ashton@gmail.com,207,207,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Gold Elite,Expedia,chen@gmail.com,319,319,0,0,0,Normal,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,mike@gmail.com,312,312,0,0,0,Normal,No Error
-1,New York,Fairfield Inn & Suites,Silver Elite,Orbitz,mili@gmail.com,237,237,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,sarah@gmail.com,220,220,0,0,0,Very Slow,No Error
-1,New York,Fairfield Inn & Suites,Silver Elite,Expedia,mike@gmail.com,231,231,0,0,0,Slow,No Error
-1,Chicago,Residence Inn,Member,Expedia,madison@gmail.com,202,202,0,0,0,Slow,No Error
-1,Chicago,Residence Inn,Member,Orbitz,jesus@gmail.com,208,208,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Member,Expedia,jose@gmail.com,208,208,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,vinh@gmail.com,326,326,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,madison@gmail.com,329,329,0,0,0,Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Orbitz,jesus@gmail.com,333,333,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,jose@gmail.com,443,443,0,0,0,Very Slow,No Error
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,isabelle@gmail.com,240,240,0,0,0,Slow,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,ashton@gmail.com,456,456,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,raul@gmail.com,442,442,0,0,0,Very Slow,No Error
-1,Chicago,Residence Inn,Platinum Elite,Expedia,maria@gmail.com,195,195,0,0,0,Very Slow,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,chen@gmail.com,455,455,0,0,0,Very Slow,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,dimimitri@gmail.com,459,459,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,ella@gmail.com,248,248,0,0,0,Slow,No Error
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Platinum Elite,Expedia,mili@gmail.com,202,202,0,0,0,Very Slow,No Error
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,213,213,0,0,0,Very Slow,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,ashton@gmail.com,446,446,0,0,0,Very Slow,No Error
-1,Chicago,Residence Inn,Platinum Elite,Expedia,marcus@gmail.com,204,204,0,0,0,Normal,No Error
-1,Chicago,Residence Inn,Platinum Elite,Orbitz,mike@gmail.com,204,204,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Platinum Elite,Expedia,augustus@gmail.com,322,322,0,0,0,Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,327,327,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,jose@gmail.com,449,449,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,ryan@gmail.com,329,329,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,vinh@gmail.com,330,330,0,0,0,Very Slow,No Error
-1,San Francisco,The Ritz Carlton,Gold Elite,Expedia,madison@gmail.com,459,459,0,0,0,Very Slow,No Error
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,romeo@gmail.com,225,225,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,jesus@gmail.com,454,454,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,447,447,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,ashton@gmail.com,453,453,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,raul@gmail.com,460,460,0,0,0,Very Slow,No Error
-1,Chicago,Residence Inn,Platinum Elite,Expedia,maria@gmail.com,205,205,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,chen@gmail.com,460,460,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,dimimitri@gmail.com,456,456,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,ella@gmail.com,248,248,0,0,0,Very Slow,No Error
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Platinum Elite,Expedia,mili@gmail.com,208,208,0,0,0,Very Slow,No Error
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,198,198,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,ashton@gmail.com,447,447,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Member,Expedia,marcus@gmail.com,205,205,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Silver Elite,Orbitz,mike@gmail.com,214,214,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Platinum Elite,Expedia,augustus@gmail.com,325,325,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,311,311,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Expedia,jose@gmail.com,460,460,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,ryan@gmail.com,321,321,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Gold Elite,Expedia,vinh@gmail.com,317,317,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Gold Elite,Expedia,madison@gmail.com,453,453,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,romeo@gmail.com,239,239,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,jesus@gmail.com,453,453,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,453,453,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,214,214,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,330,330,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,445,445,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,201,201,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,319,319,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,450,450,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,213,213,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,318,318,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,460,460,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,201,201,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,316,316,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,445,445,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,214,214,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,316,316,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,445,445,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Member,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Silver Elite,Expedia,sarah@gmail.com,214,214,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,331,331,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,441,441,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Member,Expedia,sarah@gmail.com,201,201,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Silver Elite,Expedia,pierre@gmail.com,310,310,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,443,443,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,213,213,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,311,311,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,452,452,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,198,198,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,335,335,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,452,452,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Member,Expedia,sarah@gmail.com,202,202,0,0,0,Error,Unable to confirm reservation
-1,Washington,JW Marriott,Silver Elite,Expedia,pierre@gmail.com,329,329,0,0,0,Error,Unable to confirm reservation
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,457,457,0,0,0,Error,Unable to confirm reservation
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Error,Unable to confirm reservation
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,198,198,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,316,316,0,0,0,Very Slow,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,451,451,0,0,0,Very Slow,No Error
-1,Chicago,Residence Inn,Member,Expedia,sarah@gmail.com,211,211,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Silver Elite,Expedia,pierre@gmail.com,317,317,0,0,0,Very Slow,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,445,445,0,0,0,Very Slow,No Error
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Very Slow,No Error
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,205,205,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,321,321,0,0,0,Very Slow,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,458,458,0,0,0,Very Slow,No Error
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,212,212,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,321,321,0,0,0,Very Slow,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,455,455,0,0,0,Very Slow,No Error
-1,Chicago,Residence Inn,Member,Expedia,sarah@gmail.com,206,206,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Silver Elite,Expedia,pierre@gmail.com,329,329,0,0,0,Very Slow,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,458,458,0,0,0,Very Slow,No Error
-1,New York,Fairfield Inn & Suites,Gold Elite,Expedia,noah@gmail.com,248,248,0,0,0,Very Slow,No Error
-1,Chicago,Residence Inn,Platinum Elite,Expedia,sarah@gmail.com,198,198,0,0,0,Very Slow,No Error
-1,Washington,JW Marriott,Gold Elite,Expedia,pierre@gmail.com,331,331,0,0,0,Very Slow,No Error
-1,San Francisco,The Ritz Carlton,Platinum Elite,Orbitz,chen@gmail.com,459,459,0,0,0,Very Slow,No Error
+BT,Originator0,LoanStatus1,LoanType2,State3,Term4,Amount5,Term,NONE,NONE,NONE,UX,ErrorMsg,User
+1,JPMC,Approved,Fixed,CA,30,319998,30,0,0,0,Normal,No Error,user1
+1,BofA,Approved,Fixed,TX,15,363390,15,0,0,0,Normal,No Error,user1
+1,Citi,Approved,Fixed,NY,10,250683,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,FL,7,263486,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,IL,5,252621,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,CA,3,298891,3,0,0,0,Normal,No Error,user1
+1,JPMC,Approved,Fixed,TX,30,345007,30,0,0,0,Normal,No Error,user1
+1,BofA,Approved,Fixed,NY,15,143661,15,0,0,0,Normal,No Error,user1
+1,Citi,Approved,Fixed,FL,10,459857,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,IL,7,262584,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,CA,5,429535,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,TX,3,424537,3,0,0,0,Normal,No Error,user1
+1,JPMC,Approved,Fixed,NY,30,143312,30,0,0,0,Normal,No Error,user1
+1,BofA,Approved,Fixed,FL,15,244648,15,0,0,0,Normal,No Error,user1
+1,Citi,Approved,Fixed,IL,10,463533,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,CA,7,493116,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,TX,5,544733,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,NY,3,364538,3,0,0,0,Slow,No Error,user1
+1,JPMC,Approved,Fixed,FL,30,155019,30,0,0,0,Normal,No Error,user1
+1,BofA,Approved,Fixed,IL,15,615338,15,0,0,0,Normal,No Error,user1
+1,Citi,Approved,Fixed,CA,10,286699,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,TX,7,608039,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,NY,5,455048,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,FL,3,413279,3,0,0,0,Normal,No Error,user1
+1,JPMC,Approved,Fixed,IL,30,571972,30,0,0,0,Normal,No Error,user1
+1,BofA,Approved,Fixed,CA,15,221520,15,0,0,0,Slow,No Error,user1
+1,Citi,Approved,Fixed,TX,10,243323,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,NY,7,449360,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,FL,5,113466,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,IL,3,162809,3,0,0,0,Slow,No Error,user1
+1,JPMC,Approved,Fixed,CA,30,547410,30,0,0,0,Slow,No Error,user1
+1,BofA,Approved,Fixed,TX,15,103256,15,0,0,0,Normal,No Error,user1
+1,Citi,Approved,Fixed,NY,10,337996,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,FL,7,148261,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,IL,5,325645,5,0,0,0,Normal,No Error,user1
+1,BofA,Approved,Fixed,CA,15,221520,15,0,0,0,Slow,No Error,user1
+1,Citi,Approved,Fixed,TX,10,243323,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,NY,7,449360,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,FL,5,113466,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,IL,3,162809,3,0,0,0,Slow,No Error,user1
+1,JPMC,Approved,Fixed,CA,30,547410,30,0,0,0,Slow,No Error,user1
+1,BofA,Approved,Fixed,TX,15,103256,15,0,0,0,Normal,No Error,user1
+1,Citi,Approved,Fixed,NY,10,337996,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,FL,7,148261,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,IL,5,325645,5,0,0,0,Normal,No Error,user1
+1,BofA,Approved,Fixed,CA,15,221520,15,0,0,0,Slow,No Error,user1
+1,Citi,Approved,Fixed,TX,10,243323,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,NY,7,449360,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,FL,5,113466,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,IL,3,162809,3,0,0,0,Slow,No Error,user1
+1,JPMC,Approved,Fixed,CA,30,547410,30,0,0,0,Slow,No Error,user1
+1,BofA,Approved,Fixed,TX,15,103256,15,0,0,0,Normal,No Error,user1
+1,Citi,Approved,Fixed,NY,10,337996,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,FL,7,148261,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,IL,5,325645,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,CA,3,529888,3,0,0,0,Error,Unable to complete transaction,user1
+1,JPMC,Approved,Fixed,TX,30,201273,30,0,0,0,Slow,No Error,user1
+1,BofA,Approved,Fixed,NY,15,275550,15,0,0,0,Slow,No Error,user1
+1,Citi,Approved,Fixed,FL,10,103246,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,IL,7,260116,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,CA,5,401757,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,TX,3,436917,3,0,0,0,Error,Unable to complete transaction,user1
+1,JPMC,Approved,Fixed,NY,30,588398,30,0,0,0,Normal,No Error,user1
+1,BofA,Approved,Fixed,FL,15,209681,15,0,0,0,Error,Unable to complete transaction,user1
+1,Citi,Approved,Fixed,IL,10,318064,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,CA,7,453516,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,TX,5,616636,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,NY,3,606541,3,0,0,0,Error,Unable to complete transaction,user1
+1,JPMC,Approved,Fixed,FL,30,503771,30,0,0,0,Slow,No Error,user1
+1,BofA,Approved,Fixed,IL,15,600541,15,0,0,0,Error,Unable to complete transaction,user1
+1,Citi,Approved,Fixed,CA,10,532236,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,TX,7,359326,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,NY,5,610790,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,FL,3,382703,3,0,0,0,Error,Unable to complete transaction,user1
+1,JPMC,Approved,Fixed,IL,30,313550,30,0,0,0,Slow,No Error,user1
+1,BofA,Approved,Fixed,CA,15,516705,15,0,0,0,Very Slow,No Error,user1
+1,Citi,Approved,Fixed,TX,10,421733,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,NY,7,455645,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,FL,5,582483,5,0,0,0,Slow,No Error,user1
+1,Quicken Loans,Approved,FIxed,IL,3,429914,3,0,0,0,Error,Unable to complete transaction,user1
+1,JPMC,Approved,Fixed,CA,30,395910,30,0,0,0,Normal,No Error,user1
+1,BofA,Approved,Fixed,TX,15,594643,15,0,0,0,Error,Unable to complete transaction,
+1,Citi,Approved,Fixed,NY,10,334270,10,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,FL,7,517248,7,0,0,0,Slow,No Error,user2
+1,CapitalOne,Approved,Variable,IL,5,226552,5,0,0,0,Normal,No Error,user2
+1,Quicken Loans,Approved,FIxed,CA,3,274454,3,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,TX,30,214855,30,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,NY,15,360858,15,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,FL,10,151547,10,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,IL,7,414714,7,0,0,0,Slow,No Error,user2
+1,CapitalOne,Approved,Variable,CA,5,608974,5,0,0,0,Normal,No Error,user2
+1,Quicken Loans,Not Approved,FIxed,TX,3,407105,3,0,0,0,Very Slow,No Error,user2
+1,JPMC,Approved,Fixed,NY,30,313707,30,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,FL,15,536460,15,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,IL,10,319605,10,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,CA,7,602079,7,0,0,0,Slow,No Error,user2
+1,CapitalOne,Approved,Variable,TX,5,328300,5,0,0,0,Normal,No Error,user2
+1,Quicken Loans,Not Approved,FIxed,NY,3,205514,3,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,FL,30,471778,30,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,IL,15,415470,15,0,0,0,Very Slow,No Error,user2
+1,JPMC,Approved,Fixed,CA,10,319998,10,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,TX,7,363390,7,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,NY,5,250683,5,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,FL,3,263486,3,0,0,0,Slow,No Error,user2
+1,CapitalOne,Approved,Variable,IL,30,252621,30,0,0,0,Error,Unable to complete transaction,user2
+1,Quicken Loans,Not Approved,FIxed,CA,15,298891,15,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,TX,10,345007,10,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,NY,7,143661,7,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,FL,5,459857,5,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,IL,3,262584,3,0,0,0,Error,Unable to complete transaction,user2
+1,CapitalOne,Approved,Variable,CA,30,429535,30,0,0,0,Very Slow,No Error,user2
+1,Quicken Loans,Not Approved,FIxed,TX,15,424537,15,0,0,0,Very Slow,No Error,user2
+1,JPMC,Approved,Fixed,NY,10,143312,10,0,0,0,Normal,No Error,user2
+1,BofA,Approved,Fixed,FL,7,244648,7,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,IL,5,463533,5,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,CA,3,493116,3,0,0,0,Error,Unable to complete transaction,user2
+1,CapitalOne,Approved,Variable,TX,30,544733,30,0,0,0,Very Slow,No Error,user2
+1,Quicken Loans,Not Approved,FIxed,NY,15,364538,15,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,FL,10,155019,10,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,IL,7,615338,7,0,0,0,Very Slow,No Error,user2
+1,Citi,Approved,Fixed,CA,5,286699,5,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,TX,3,608039,3,0,0,0,Error,Unable to complete transaction,user2
+1,CapitalOne,Approved,Variable,NY,30,455048,30,0,0,0,Normal,No Error,user2
+1,Quicken Loans,Not Approved,FIxed,FL,15,413279,15,0,0,0,Very Slow,No Error,user2
+1,JPMC,Approved,Fixed,IL,10,571972,10,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,CA,7,221520,7,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,TX,5,243323,5,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,NY,3,449360,3,0,0,0,Error,Unable to complete transaction,user2
+1,CapitalOne,Approved,Variable,FL,30,113466,30,0,0,0,Very Slow,No Error,user2
+1,Quicken Loans,Not Approved,FIxed,IL,15,162809,15,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,CA,10,547410,10,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,TX,7,103256,7,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,NY,5,337996,5,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,FL,3,148261,3,0,0,0,Slow,No Error,user2
+1,Quicken Loans,Approved,FIxed,CA,3,529888,3,0,0,0,Error,Unable to complete transaction,user1
+1,JPMC,Approved,Fixed,TX,30,201273,30,0,0,0,Slow,No Error,user1
+1,BofA,Approved,Fixed,NY,15,275550,15,0,0,0,Slow,No Error,user1
+1,Citi,Approved,Fixed,FL,10,103246,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,IL,7,260116,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,CA,5,401757,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,TX,3,436917,3,0,0,0,Error,Unable to complete transaction,user1
+1,JPMC,Approved,Fixed,NY,30,588398,30,0,0,0,Normal,No Error,user1
+1,BofA,Approved,Fixed,FL,15,209681,15,0,0,0,Error,Unable to complete transaction,user1
+1,Citi,Approved,Fixed,IL,10,318064,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,CA,7,453516,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,TX,5,616636,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,NY,3,606541,3,0,0,0,Error,Unable to complete transaction,user1
+1,JPMC,Approved,Fixed,FL,30,503771,30,0,0,0,Slow,No Error,user1
+1,BofA,Approved,Fixed,IL,15,600541,15,0,0,0,Error,Unable to complete transaction,user1
+1,Citi,Approved,Fixed,CA,10,532236,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,TX,7,359326,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,NY,5,610790,5,0,0,0,Normal,No Error,user1
+1,Quicken Loans,Approved,FIxed,FL,3,382703,3,0,0,0,Error,Unable to complete transaction,user1
+1,JPMC,Approved,Fixed,IL,30,313550,30,0,0,0,Slow,No Error,user1
+1,BofA,Approved,Fixed,CA,15,516705,15,0,0,0,Error,Unable to complete transaction,user1
+1,Citi,Approved,Fixed,TX,10,421733,10,0,0,0,Very Slow,No Error,user1
+1,Wells Fargo,Approved,Variable,NY,7,455645,7,0,0,0,Slow,No Error,user1
+1,CapitalOne,Approved,Variable,FL,5,582483,5,0,0,0,Slow,No Error,user1
+1,Quicken Loans,Approved,FIxed,IL,3,429914,3,0,0,0,Error,Unable to complete transaction,user1
+1,JPMC,Approved,Fixed,CA,30,395910,30,0,0,0,Normal,No Error,user1
+1,BofA,Approved,Fixed,TX,15,594643,15,0,0,0,Error,Unable to complete transaction,
+1,Citi,Approved,Fixed,NY,10,334270,10,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,FL,7,517248,7,0,0,0,Slow,No Error,user2
+1,CapitalOne,Approved,Variable,IL,5,226552,5,0,0,0,Normal,No Error,user2
+1,Quicken Loans,Approved,FIxed,CA,3,274454,3,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,TX,30,214855,30,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,NY,15,360858,15,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,FL,10,151547,10,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,IL,7,414714,7,0,0,0,Slow,No Error,user2
+1,CapitalOne,Approved,Variable,CA,5,608974,5,0,0,0,Normal,No Error,user2
+1,Quicken Loans,Not Approved,FIxed,TX,3,407105,3,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,NY,30,313707,30,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,FL,15,536460,15,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,IL,10,319605,10,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,CA,7,602079,7,0,0,0,Slow,No Error,user2
+1,CapitalOne,Approved,Variable,TX,5,328300,5,0,0,0,Normal,No Error,user2
+1,Quicken Loans,Not Approved,FIxed,NY,3,205514,3,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,FL,30,471778,30,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,IL,15,415470,15,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,CA,10,319998,10,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,TX,7,363390,7,0,0,0,Very Slow,No Error,user2
+1,Citi,Approved,Fixed,NY,5,250683,5,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,FL,3,263486,3,0,0,0,Slow,No Error,user2
+1,CapitalOne,Approved,Variable,IL,30,252621,30,0,0,0,Very Slow,No Error,user2
+1,Quicken Loans,Not Approved,FIxed,CA,15,298891,15,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,TX,10,345007,10,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,NY,7,143661,7,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,FL,5,459857,5,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,IL,3,262584,3,0,0,0,Error,Unable to complete transaction,user2
+1,CapitalOne,Approved,Variable,CA,30,429535,30,0,0,0,Error,Unable to complete transaction,user2
+1,Quicken Loans,Not Approved,FIxed,TX,15,424537,15,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,NY,10,143312,10,0,0,0,Normal,No Error,user2
+1,BofA,Approved,Fixed,FL,7,244648,7,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,IL,5,463533,5,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,CA,3,493116,3,0,0,0,Error,Unable to complete transaction,user2
+1,CapitalOne,Approved,Variable,TX,30,544733,30,0,0,0,Very Slow,No Error,user2
+1,Quicken Loans,Not Approved,FIxed,NY,15,364538,15,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,FL,10,155019,10,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,IL,7,615338,7,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,CA,5,286699,5,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,TX,3,608039,3,0,0,0,Error,Unable to complete transaction,user2
+1,CapitalOne,Approved,Variable,NY,30,455048,30,0,0,0,Very Slow,No Error,user2
+1,Quicken Loans,Not Approved,FIxed,FL,15,413279,15,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,IL,10,571972,10,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,CA,7,221520,7,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,TX,5,243323,5,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,NY,3,449360,3,0,0,0,Error,Unable to complete transaction,user2
+1,CapitalOne,Approved,Variable,FL,30,113466,30,0,0,0,Very Slow,No Error,user2
+1,Quicken Loans,Not Approved,FIxed,IL,15,162809,15,0,0,0,Error,Unable to complete transaction,user2
+1,JPMC,Approved,Fixed,CA,10,547410,10,0,0,0,Very Slow,No Error,user2
+1,BofA,Approved,Fixed,TX,7,103256,7,0,0,0,Error,Unable to complete transaction,user2
+1,Citi,Approved,Fixed,NY,5,337996,5,0,0,0,Very Slow,No Error,user2
+1,Wells Fargo,Approved,Variable,FL,3,148261,3,0,0,0,Slow,No Error,user2
+1,CapitalOne,Not Approved,Variable,IL,30,325645,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,CA,15,529888,15,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,TX,10,201273,10,0,0,0,Very Slow,No Error,user3
+1,BofA,Not Approved,Fixed,NY,7,275550,7,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,FL,5,103246,5,0,0,0,Very Slow,No Error,user3
+1,Wells Fargo,Not Approved,Variable,IL,3,260116,3,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Variable,CA,30,401757,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,TX,15,436917,15,0,0,0,Error,Unable to complete transaction,user3
+1,JPMC,Not Approved,Fixed,NY,10,588398,10,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Fixed,FL,7,209681,7,0,0,0,Error,Unable to complete transaction,user3
+1,Citi,Not Approved,Fixed,IL,5,318064,5,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Variable,CA,3,453516,3,0,0,0,Very Slow,No Error,user3
+1,CapitalOne,Not Approved,Variable,TX,30,616636,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,NY,15,606541,15,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Fixed,FL,10,503771,10,0,0,0,Error,Unable to complete transaction,user3
+1,BofA,Not Approved,Fixed,IL,7,600541,7,0,0,0,Very Slow,No Error,user3
+1,Citi,Not Approved,Fixed,CA,5,532236,5,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Variable,TX,3,359326,3,0,0,0,Error,Unable to complete transaction,user3
+1,CapitalOne,Not Approved,Variable,NY,30,610790,30,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,FIxed,FL,15,382703,15,0,0,0,Error,Unable to complete transaction,user3
+1,JPMC,Not Approved,Fixed,IL,10,313550,10,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Fixed,CA,7,516705,7,0,0,0,Error,Unable to complete transaction,user3
+1,Citi,Not Approved,Fixed,TX,5,421733,5,0,0,0,Error,Unable to complete transaction,user3
+1,Wells Fargo,Not Approved,Variable,NY,3,455645,3,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Variable,FL,30,582483,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,IL,15,429914,15,0,0,0,Very Slow,No Error,user3
+1,JPMC,Not Approved,Fixed,CA,10,395910,10,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,TX,7,594643,7,0,0,0,Error,Unable to complete transaction,user3
+1,Citi,Not Approved,Fixed,NY,5,334270,5,0,0,0,Error,Unable to complete transaction,user3
+1,Wells Fargo,Not Approved,Variable,FL,3,517248,3,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Variable,IL,30,226552,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,CA,15,274454,15,0,0,0,Very Slow,No Error,user3
+1,JPMC,Not Approved,Fixed,TX,10,214855,10,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,NY,7,360858,7,0,0,0,Error,Unable to complete transaction,user3
+1,Citi,Not Approved,Fixed,FL,5,151547,5,0,0,0,Very Slow,No Error,user3
+1,Wells Fargo,Not Approved,Variable,IL,3,414714,3,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Variable,CA,30,608974,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,TX,15,407105,15,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,NY,10,313707,10,0,0,0,Error,Unable to complete transaction,user3
+1,BofA,Not Approved,Fixed,FL,7,536460,7,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Fixed,IL,5,319605,5,0,0,0,Error,Unable to complete transaction,user3
+1,Wells Fargo,Not Approved,Variable,CA,3,602079,3,0,0,0,Error,Unable to complete transaction,user3
+1,CapitalOne,Not Approved,Variable,TX,30,328300,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,NY,15,205514,15,0,0,0,Very Slow,No Error,user3
+1,JPMC,Not Approved,Fixed,FL,10,471778,10,0,0,0,Error,Unable to complete transaction,user3
+1,BofA,Not Approved,Fixed,IL,7,415470,7,0,0,0,Error,Unable to complete transaction,user3
+1,CapitalOne,Not Approved,Variable,IL,30,325645,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,CA,15,529888,15,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,TX,10,201273,10,0,0,0,Error,Unable to complete transaction,user3
+1,BofA,Not Approved,Fixed,NY,7,275550,7,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Fixed,FL,5,103246,5,0,0,0,Error,Unable to complete transaction,user3
+1,Wells Fargo,Not Approved,Variable,IL,3,260116,3,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Variable,CA,30,401757,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,TX,15,436917,15,0,0,0,Error,Unable to complete transaction,user3
+1,JPMC,Not Approved,Fixed,NY,10,588398,10,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Fixed,FL,7,209681,7,0,0,0,Error,Unable to complete transaction,user3
+1,Citi,Not Approved,Fixed,IL,5,318064,5,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Variable,CA,3,453516,3,0,0,0,Error,Unable to complete transaction,user3
+1,CapitalOne,Not Approved,Variable,TX,30,616636,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,NY,15,606541,15,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,FL,10,503771,10,0,0,0,Very Slow,No Error,user3
+1,BofA,Not Approved,Fixed,IL,7,600541,7,0,0,0,Very Slow,No Error,user3
+1,Citi,Not Approved,Fixed,CA,5,532236,5,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Variable,TX,3,359326,3,0,0,0,Error,Unable to complete transaction,user3
+1,CapitalOne,Not Approved,Variable,NY,30,610790,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,FL,15,382703,15,0,0,0,Very Slow,No Error,user3
+1,JPMC,Not Approved,Fixed,IL,10,313550,10,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,CA,7,516705,7,0,0,0,Error,Unable to complete transaction,user3
+1,Citi,Not Approved,Fixed,TX,5,421733,5,0,0,0,Error,Unable to complete transaction,user3
+1,Wells Fargo,Not Approved,Variable,NY,3,455645,3,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Variable,FL,30,582483,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,IL,15,429914,15,0,0,0,Very Slow,No Error,user3
+1,JPMC,Not Approved,Fixed,CA,10,395910,10,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,TX,7,594643,7,0,0,0,Very Slow,No Error,user3
+1,Citi,Not Approved,Fixed,NY,5,334270,5,0,0,0,Error,Unable to complete transaction,user3
+1,Wells Fargo,Not Approved,Variable,FL,3,517248,3,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Variable,IL,30,226552,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,CA,15,274454,15,0,0,0,Error,Unable to complete transaction,user3
+1,JPMC,Not Approved,Fixed,TX,10,214855,10,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Fixed,NY,7,360858,7,0,0,0,Error,Unable to complete transaction,user3
+1,Citi,Not Approved,Fixed,FL,5,151547,5,0,0,0,Error,Unable to complete transaction,user3
+1,Wells Fargo,Not Approved,Variable,IL,3,414714,3,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Variable,CA,30,608974,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,TX,15,407105,15,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,NY,10,313707,10,0,0,0,Error,Unable to complete transaction,user3
+1,BofA,Not Approved,Fixed,FL,7,536460,7,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,IL,5,319605,5,0,0,0,Error,Unable to complete transaction,user3
+1,Wells Fargo,Not Approved,Variable,CA,3,602079,3,0,0,0,Very Slow,No Error,user3
+1,CapitalOne,Not Approved,Variable,TX,30,328300,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,NY,15,205514,15,0,0,0,Error,Unable to complete transaction,user3
+1,JPMC,Not Approved,Fixed,FL,10,471778,10,0,0,0,Error,Unable to complete transaction,user3
+1,BofA,Not Approved,Fixed,IL,7,415470,7,0,0,0,Error,Unable to complete transaction,user3
+1,CapitalOne,Not Approved,Variable,IL,30,325645,30,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,FIxed,CA,15,529888,15,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,TX,10,201273,10,0,0,0,Error,Unable to complete transaction,user3
+1,BofA,Not Approved,Fixed,NY,7,275550,7,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,FL,5,103246,5,0,0,0,Error,Unable to complete transaction,user3
+1,Wells Fargo,Not Approved,Variable,IL,3,260116,3,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Variable,CA,30,401757,30,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,FIxed,TX,15,436917,15,0,0,0,Error,Unable to complete transaction,user3
+1,JPMC,Not Approved,Fixed,NY,10,588398,10,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,FL,7,209681,7,0,0,0,Error,Unable to complete transaction,user3
+1,Citi,Not Approved,Fixed,IL,5,318064,5,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Variable,CA,3,453516,3,0,0,0,Very Slow,No Error,user3
+1,CapitalOne,Not Approved,Variable,TX,30,616636,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,NY,15,606541,15,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,FL,10,503771,10,0,0,0,Error,Unable to complete transaction,user3
+1,BofA,Not Approved,Fixed,IL,7,600541,7,0,0,0,Error,Unable to complete transaction,user3
+1,Citi,Not Approved,Fixed,CA,5,532236,5,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Variable,TX,3,359326,3,0,0,0,Error,Unable to complete transaction,user3
+1,CapitalOne,Not Approved,Variable,NY,30,610790,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,FL,15,382703,15,0,0,0,Error,Unable to complete transaction,user3
+1,JPMC,Not Approved,Fixed,IL,10,313550,10,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Fixed,CA,7,516705,7,0,0,0,Error,Unable to complete transaction,user3
+1,Citi,Not Approved,Fixed,TX,5,421733,5,0,0,0,Error,Unable to complete transaction,user3
+1,Wells Fargo,Not Approved,Variable,NY,3,455645,3,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Variable,FL,30,582483,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,IL,15,429914,15,0,0,0,Error,Unable to complete transaction,user3
+1,JPMC,Not Approved,Fixed,CA,10,395910,10,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Fixed,TX,7,594643,7,0,0,0,Error,Unable to complete transaction,user3
+1,Citi,Not Approved,Fixed,NY,5,334270,5,0,0,0,Error,Unable to complete transaction,user3
+1,Wells Fargo,Not Approved,Variable,FL,3,517248,3,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Variable,IL,30,226552,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,CA,15,274454,15,0,0,0,Very Slow,No Error,user3
+1,JPMC,Not Approved,Fixed,TX,10,214855,10,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,NY,7,360858,7,0,0,0,Error,Unable to complete transaction,user3
+1,Citi,Not Approved,Fixed,FL,5,151547,5,0,0,0,Error,Unable to complete transaction,user3
+1,Wells Fargo,Not Approved,Variable,IL,3,414714,3,0,0,0,Very Slow,No Error,user3
+1,Quicken Loans,Not Approved,Variable,CA,30,608974,30,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,FIxed,TX,15,407105,15,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,NY,10,313707,10,0,0,0,Error,Unable to complete transaction,user3
+1,BofA,Not Approved,Fixed,FL,7,536460,7,0,0,0,Error,Unable to complete transaction,user3
+1,Quicken Loans,Not Approved,Fixed,IL,5,319605,5,0,0,0,Error,Unable to complete transaction,user3
